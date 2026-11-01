@@ -1,0 +1,14 @@
+\begingroup
+\hyphenpenalty=10000\relax
+\exhyphenpenalty=10000\relax
+% All stages below are proposed future research; none is claimed completed.
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,font=\fontsize{9.1}{11}\selectfont,
+ future/.style={draw=slate!60,fill=mist,dashed,rounded corners=2pt,text width=4.9cm,align=left,minimum height=2.00cm,inner sep=6pt,line width=.65pt}]
+\node[future] (a) at (0,0) {\textbf{A \quad Forecast availability}\\Obtain genuinely emitted, varied, action-conditioned forecasts.};
+\node[future] (b) at (5.8,0) {\textbf{B \quad Error and consequences}\\Vary transition-error severity and contact with task-relevant constraints.};
+\node[future] (c) at (11.6,0) {\textbf{C \quad Incremental value}\\Test reward-relevant error beyond replay and hard feasibility on new held-out tasks.};
+\draw[->,draw=slate,line width=.8pt] (a.east)--(b.west);
+\draw[->,draw=slate,line width=.8pt] (b.east)--(c.west);
+\end{tikzpicture}
+
+\endgroup

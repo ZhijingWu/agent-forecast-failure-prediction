@@ -1,0 +1,19 @@
+view,name,columns,scope,n,successes,failures,log_loss,Brier
+prior,Development prior,0,registered,124,4,120,0.1449471460239966,0.03141057453712541
+prior,Development prior,0,full_tail,124,4,120,0.1449471460239966,0.03141057453712541
+state_format,State + format,11,registered,124,4,120,0.1064039131531564,0.028862232300055177
+state_format,State + format,11,full_tail,124,4,120,0.1064039131531564,0.028862232300055177
+ordinary_replay,Ordinary replay,12,registered,124,4,120,0.09465778428281907,0.02723340621064782
+ordinary_replay,Ordinary replay,12,full_tail,124,4,120,0.09465778428281907,0.02723340621064782
+MI_self_likelihood,Likelihood proxy,9,registered,124,4,120,0.11515587987318847,0.029624223743120945
+MI_self_likelihood,Likelihood proxy,9,full_tail,124,4,120,0.10277774281969301,0.028314247362106453
+state_replay_MI,State + replay + likelihood,18,registered,124,4,120,0.10537893666684447,0.02824117166564709
+state_replay_MI,State + replay + likelihood,18,full_tail,124,4,120,0.09199422769542355,0.02663157682249229
+two_sample_disagreement,Two-sample disagreement,23,registered,124,4,120,0.10399460098083327,0.02824930033343604
+two_sample_disagreement,Two-sample disagreement,23,full_tail,124,4,120,0.09006848646230722,0.026786836731329738
+ordinary_replay_task_progress_deadlock,Replay + task / deadlock,25,registered,124,4,120,0.039513908197472865,0.009676470709556151
+ordinary_replay_task_progress_deadlock,Replay + task / deadlock,25,full_tail,124,4,120,0.04293590614148733,0.011315169661673693
+task_relevance_augmented,Task-relevance candidate,34,registered,124,4,120,0.0395069998953692,0.009634180427644193
+task_relevance_augmented,Task-relevance candidate,34,full_tail,124,4,120,0.04287873602257956,0.011240979846888675
+generic_summary_matched_interactions,Matched generic interactions,34,registered,124,4,120,0.04016017228077607,0.010256173688002874
+generic_summary_matched_interactions,Matched generic interactions,34,full_tail,124,4,120,0.04592875787430371,0.013079638874456432

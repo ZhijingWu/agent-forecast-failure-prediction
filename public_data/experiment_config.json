@@ -1,0 +1,38 @@
+{
+  "policy": {
+    "model": "tyzhu/SPA-sokoban-qwen2.5-1.5b-instruct",
+    "revision": "eab69c9cdfe4f700ad25835c269bcbdf276696f6",
+    "unique_parameters": 1543301120,
+    "weights_frozen": true
+  },
+  "upstream": {
+    "repository": "https://github.com/shiqichen17/SPA",
+    "revision": "3848e68fb43c732697bc3ad85d0bd50d7f39fc53"
+  },
+  "task": {
+    "native": "one-box Sokoban",
+    "grid": [
+      6,
+      6
+    ],
+    "action_attempts": 10,
+    "max_model_turns": 5
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_new_tokens": 400
+  },
+  "evaluation": {
+    "landmark": "After first proposed action batch and returned native observation",
+    "failure": "No native success within the fixed horizon",
+    "primary_exclusions": "Already complete, terminal, or out of budget at landmark",
+    "grouping": "D4 wall-plus-target families",
+    "fit": "StandardScaler then L2 logistic regression, C=1, development only",
+    "bootstrap": "2000 paired family resamples conditional on the development fit",
+    "full_tail_teacher_forcing_passes": 896,
+    "full_tail_extra_sampling": 0
+  },
+  "publication_scope": "Aggregate configuration only; private per-episode seeds and trajectories are not redistributed. This is not sufficient for an end-to-end rerun."
+}
