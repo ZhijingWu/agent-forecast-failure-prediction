@@ -1,167 +1,329 @@
 {
-  "scope": "Stage 1 sanitized initial publication",
+  "scope": "Final sanitized public outreach artifacts; original material and allowlisted aggregates; hashes exclude this self-referential register and checksum files.",
   "files": [
     {
       "file": ".gitattributes",
       "bytes": 45,
       "sha256": "8df22cc43d34bc5cf0e2ae4d1cd11a28ad8073b0e53f3ad51d1d693516d12b32",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": ".gitignore",
       "bytes": 72,
       "sha256": "72e7624f849b8afa2f5745edd5efadefa341c8b3cf4f976b4b25873a8fb84d20",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "docs/experimental_design.md",
       "bytes": 2614,
       "sha256": "e9075df27af0dd8e08cd7c4ba73c4c77ff5335396d60caf43cfde5205bc5e1d1",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "docs/publication_scope.md",
       "bytes": 1091,
       "sha256": "3ec39557da6fb547145ca57c5925a2f95c7eca062bd3a4d8a1e14f9c110c980e",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "docs/references.md",
       "bytes": 1142,
       "sha256": "94293734a319a8384d80f02598cf3b43a575fdc8c99a4813055eb75fbde377e8",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "docs/research_overview.md",
       "bytes": 1093,
       "sha256": "6d0bae6b86e663050e8a18726961a5bf4b697f15919d2c0689012160219c09bd",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "docs/results_and_limitations.md",
       "bytes": 2648,
       "sha256": "4d4aa8973d7d9789e1f9f5c8d32e706d07195f1a5db9bb9e353a8ec98f03a76a",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "figures/architecture.pdf",
+      "bytes": 60341,
+      "sha256": "d7f811f4d847c9bc6cc8b40f8b0daa56a5c9756ce2ed80336b7b32973a2872af",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "figures/architecture.tex",
+      "bytes": 1388,
+      "sha256": "197b80b1a287a3308ca2781286a0719607ec992688fc0fbfb54f9c017d07231c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/availability.pdf",
       "bytes": 10849,
       "sha256": "f8a12d33e78000a7c1108d0cd96a92db4c1818742c292f528a065f2192f0b377",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/availability.png",
       "bytes": 41953,
       "sha256": "fdee2b88eac726f8d8c1a43c19aa69ad9cfea2369b1af0985c70e89e365d9823",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/availability.svg",
       "bytes": 6745,
       "sha256": "affe9c0e0e4034c94610cdde3500e9e91fece4f561f3520c34bed8f1df0cef22",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "figures/graphical_abstract.pdf",
+      "bytes": 106909,
+      "sha256": "127e79d4f2bdbbe01b3b047ca4657560ed759eb66efdff284bc485e34f0aa87c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/graphical_abstract.tex",
       "bytes": 2153,
       "sha256": "99ab5ab2a8c59b7ecbaa2e73e7b1b8a77845ebc16a4d7c2cd886fd81960d8169",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/paired_gain.pdf",
       "bytes": 13176,
       "sha256": "ac67b8362d6d4e7596cb86fe3f65f9e2d5276d151cf865371592741288dcca36",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/paired_gain.png",
       "bytes": 118515,
       "sha256": "24737ab5742f84e7db72c8c924e4238ab26e989192f5a040a8aa07f71be32f2f",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/paired_gain.svg",
       "bytes": 11329,
       "sha256": "08a9bc79ec8f8c6a1876175fd5153611697789a7a8aac647d921370b3b5525d7",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/README.md",
       "bytes": 376,
       "sha256": "622694039e5c52e77836cf35fcdeb77c6236afbeefc35b1d1dfbacfaefee1711",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "figures/roadmap.pdf",
+      "bytes": 55152,
+      "sha256": "6866f5536ea8b97cfec198509a953c7c5db7ee6499dd9d2f99bd27468044095c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "figures/roadmap.tex",
       "bytes": 949,
       "sha256": "6651ec988e662a3b62107e296e32c8c7fa1ea3f229f4a71ad595eed4ecb7822e",
-      "origin": "original retained figure export or editable diagram"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "public_data/aggregate_results.json",
       "bytes": 6844,
       "sha256": "5171c0f6381bb996253c22276f0783d41a08ba87a8a3f36222dc3d3d58f0d5af",
-      "origin": "allowlisted frozen aggregate extract; no individual records"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "public_data/experiment_config.json",
       "bytes": 1302,
       "sha256": "0edf9a9f01de2d022a6eef787ea01316bc42d4ef773ec1a86312285025713b9c",
-      "origin": "allowlisted frozen aggregate extract; no individual records"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "public_data/feature_views.json",
       "bytes": 6400,
       "sha256": "6472710a4e666fa4af726e0906faec814042434dd8b693d6fd2f3bf9434ac331",
-      "origin": "allowlisted frozen aggregate extract; no individual records"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "public_data/view_metrics.csv",
       "bytes": 1990,
       "sha256": "92920479618a9e5f6224ac10305ec086be9c2ed31bfbb02faebffec0ff9d6979",
-      "origin": "allowlisted frozen aggregate extract; no individual records"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "README.md",
-      "bytes": 6196,
-      "sha256": "2dedbc4455d665959b592dfbda7abb76d96ee0ed901ee1ada3ee1ceeb99fd528",
-      "origin": "original outreach text or aggregate inspection code"
+      "bytes": 6411,
+      "sha256": "11870cf41fa15fe60b149d005d901c3de00d796ba91ecc4eaf7dc118f5f433cc",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "requirements-figures.txt",
       "bytes": 19,
       "sha256": "6ffe2e55d5e9eb7daa776bbac48203e6244b860db6bacb5928d1e7c70332f40c",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "src/plot_aggregates.py",
       "bytes": 3245,
       "sha256": "1a54c2d31a0548391e38590478e13448bdd42f6e3dcf04ea31a259f0c211d271",
-      "origin": "original retained plot source adapted to minimal public input and separate build output"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "src/validate_aggregates.py",
       "bytes": 1688,
       "sha256": "2c439bd953d56e30c4ecffc40440834f2a982d7fcc2a5a572bf3ff8c606158d1",
-      "origin": "original outreach text or aggregate inspection code"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/build.py",
+      "bytes": 2126,
+      "sha256": "807947c1c445a79fb47220193823a24fc0e858e26e862b74f3b2ff8b157ddbf3",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/data/aggregate_results.json",
+      "bytes": 6844,
+      "sha256": "5171c0f6381bb996253c22276f0783d41a08ba87a8a3f36222dc3d3d58f0d5af",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/architecture.pdf",
+      "bytes": 60341,
+      "sha256": "d7f811f4d847c9bc6cc8b40f8b0daa56a5c9756ce2ed80336b7b32973a2872af",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/architecture.tex",
+      "bytes": 1388,
+      "sha256": "197b80b1a287a3308ca2781286a0719607ec992688fc0fbfb54f9c017d07231c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/availability.pdf",
+      "bytes": 10849,
+      "sha256": "f8a12d33e78000a7c1108d0cd96a92db4c1818742c292f528a065f2192f0b377",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/availability.png",
+      "bytes": 41953,
+      "sha256": "fdee2b88eac726f8d8c1a43c19aa69ad9cfea2369b1af0985c70e89e365d9823",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/availability.svg",
+      "bytes": 6745,
+      "sha256": "affe9c0e0e4034c94610cdde3500e9e91fece4f561f3520c34bed8f1df0cef22",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/graphical_abstract.pdf",
+      "bytes": 106909,
+      "sha256": "127e79d4f2bdbbe01b3b047ca4657560ed759eb66efdff284bc485e34f0aa87c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/graphical_abstract.tex",
+      "bytes": 2153,
+      "sha256": "99ab5ab2a8c59b7ecbaa2e73e7b1b8a77845ebc16a4d7c2cd886fd81960d8169",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/paired_gain.pdf",
+      "bytes": 13176,
+      "sha256": "ac67b8362d6d4e7596cb86fe3f65f9e2d5276d151cf865371592741288dcca36",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/paired_gain.png",
+      "bytes": 118515,
+      "sha256": "24737ab5742f84e7db72c8c924e4238ab26e989192f5a040a8aa07f71be32f2f",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/paired_gain.svg",
+      "bytes": 11329,
+      "sha256": "08a9bc79ec8f8c6a1876175fd5153611697789a7a8aac647d921370b3b5525d7",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/roadmap.pdf",
+      "bytes": 55152,
+      "sha256": "6866f5536ea8b97cfec198509a953c7c5db7ee6499dd9d2f99bd27468044095c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/figures/roadmap.tex",
+      "bytes": 949,
+      "sha256": "6651ec988e662a3b62107e296e32c8c7fa1ea3f229f4a71ad595eed4ecb7822e",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/FINAL_VISUAL_QA.md",
+      "bytes": 3624,
+      "sha256": "0862981d7da9de6f7444c2c86eeaf7028c8c6715b9807860db2ff6c2fe225d4a",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/main.tex",
+      "bytes": 13319,
+      "sha256": "192de773fe58424504ecae4f70ea33361b1a730fe183dc79c2ced15f48e2156e",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/plot_existing_results.py",
+      "bytes": 3194,
+      "sha256": "a02dc6726734c36e7df1d8f667be529d26c5b01ef79393382f65417da5f1d609",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/README.md",
+      "bytes": 1276,
+      "sha256": "e14ea1eed4b9d8a15dcc42ff159624490b6f12073cee3cc1e19f5443a1dafb9c",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/references.bib",
+      "bytes": 863,
+      "sha256": "c7ac76194d9df11df1a4220b65a1dad50ff794711211f997ef0417686b31e982",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/verification/claim_verification.csv",
+      "bytes": 8818,
+      "sha256": "c2fe12a27ecd4b12b87d5ef48aae01f11f3d890707c8a430314aecaa263b085d",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/verification/REPRODUCTION_VERIFICATION.json",
+      "bytes": 829,
+      "sha256": "394729b2a381f2f7f178d3e958873790ff3e6d355384acfe3185664544a8e84b",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/verification/source_register.json",
+      "bytes": 1470,
+      "sha256": "e9cab2e186e076953658f995cd23226b84f9f983152faf22b82172ee7ab33e54",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
+    },
+    {
+      "file": "technical_note/Zhijing_Wu_Manling_Li_Research_Technical_Note.pdf",
+      "bytes": 358376,
+      "sha256": "1b5873196c9cfbae117ee30a3dd9eae48a65791be26085c719f3cd927733419e",
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "verification/claim_verification.csv",
       "bytes": 8818,
       "sha256": "c2fe12a27ecd4b12b87d5ef48aae01f11f3d890707c8a430314aecaa263b085d",
-      "origin": "sanitized private claim/reference audit or verification scope text"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "verification/README.md",
       "bytes": 456,
       "sha256": "829d3c9b2f776553e664f458264ac2a7eefcc9037b078fb30e02e5b598059ef7",
-      "origin": "sanitized private claim/reference audit or verification scope text"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     },
     {
       "file": "verification/source_register.json",
       "bytes": 1470,
       "sha256": "e9cab2e186e076953658f995cd23226b84f9f983152faf22b82172ee7ab33e54",
-      "origin": "sanitized private claim/reference audit or verification scope text"
+      "origin": "Original document/code/figure or minimal frozen aggregate extract; third-party resources cited only."
     }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "references": [
+    {
+      "id": "R1",
+      "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+      "authors": "Zihan Wang et al.",
+      "version": "ICML2026, PMLR306",
+      "url": "https://proceedings.mlr.press/v306/wang26bn.html",
+      "retained_pdf_sha256": "a273198f69e986bf929c869850496cc1f99b80de0a6616935c895ccd2df33131"
+    },
+    {
+      "id": "R2",
+      "title": "VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents",
+      "authors": "Kangrui Wang et al.",
+      "version": "NeurIPS2025",
+      "url": "https://papers.nips.cc/paper_files/paper/2025/hash/fc6688d75adde86b9df910769c1d02e3-Abstract-Conference.html",
+      "retained_pdf_sha256": "78d79cb62c37658dfa51c6c825c95f0556789d25b34feaa9197cb56bed29c5d8"
+    },
+    {
+      "id": "R3",
+      "title": "Why Do LLM Agents Fail in Exploring New Environments? A World-Modeling Perspective",
+      "authors": "Shiqi Chen et al.",
+      "version": "arXiv2510.15047v2",
+      "url": "https://arxiv.org/abs/2510.15047v2",
+      "retained_pdf_sha256": "49453d8223b877251821e415ddf0c13d8564e575c738c85f2ef7e7d792956119"
+    },
+    {
+      "id": "R4",
+      "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+      "authors": "Tamera Lanham et al.",
+      "version": "arXiv2307.13702v1",
+      "url": "https://arxiv.org/abs/2307.13702v1"
+    }
+  ],
+  "verification_scope": "Prior full-paper audits and publication-phase URL checks. Papers are cited, not redistributed."
+}

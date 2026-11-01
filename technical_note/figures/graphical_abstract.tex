@@ -1,0 +1,28 @@
+\begingroup
+\hyphenpenalty=10000\relax
+\exhyphenpenalty=10000\relax
+% Editable vector diagram. Arrows denote data construction, not internal causality.
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,font=\fontsize{9.4}{11.3}\selectfont,
+ rec/.style={draw=blue!55,fill=ice,rounded corners=2pt,line width=.65pt,align=center,text width=3.1cm,minimum height=1.02cm,inner sep=5pt},
+ der/.style={draw=slate!60,fill=mist,rounded corners=2pt,line width=.65pt,align=center,text width=3.1cm,minimum height=1.02cm,inner sep=5pt},
+ flow/.style={->,draw=slate,line width=.8pt},lab/.style={font=\fontsize{8.6}{10}\selectfont,text=slate,align=center}]
+\node[font=\footnotesize\bfseries,text=blue,anchor=west] at (.1,4.08) {RECORDED SIGNALS};
+\node[font=\footnotesize\bfseries,text=slate,anchor=west] at (8.65,4.08) {DERIVED DIAGNOSTICS};
+\node[rec] (agent) at (1.8,2.45) {\textbf{Agent interaction}\\Public state $s_0$; emitted actions $a_0$};
+\node[rec] (forecast) at (6.05,3.25) {\textbf{Explicit forecast}\\Model-reported next state $\hat{s}_1$};
+\node[rec] (observed) at (6.05,1.25) {\textbf{Observed transition}\\Native execution returns $s_1$};
+\node[der] (error) at (10.3,2.45) {\textbf{Forecast discrepancy}\\Compare $\hat{s}_1$ with $s_1$; preserve missingness};
+\node[der] (task) at (10.3,-.05) {\textbf{Task-relevant evidence}\\Progress discrepancy, map validity and false progress};
+\node[der] (risk) at (14.5,-.05) {\textbf{Failure prediction}\\Development-fitted probability of later episode failure};
+\draw[flow] (agent.east) -- ++(.35,0) |- (forecast.west);
+\draw[flow] (agent.east) -- ++(.35,0) |- (observed.west);
+\draw[flow] (forecast.east) -- ++(.3,0) |- (error.west);
+\draw[flow] (observed.east) -- ++(.3,0) |- (error.west);
+\draw[flow] (error.south) -- (task.north);
+\draw[flow] (task.east) -- (risk.west);
+\node[lab,text width=6.6cm,anchor=east] (goal) at (7.4,-.4) {Public task context: goal, remaining action budget,\\replay and shortest-path queries};
+\draw[flow] (goal.east) -- (task.west);
+\node[lab,text width=3.3cm] at (14.5,2.55) {Held-out test:\\does this evidence add beyond replay, feasibility and likelihood?};
+\end{tikzpicture}
+
+\endgroup

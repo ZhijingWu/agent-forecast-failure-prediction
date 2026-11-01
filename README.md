@@ -69,6 +69,10 @@ python src/plot_aggregates.py
 
 Plot exports go to `build/figures/`; the committed figures record the original frozen values. The summary validator checks internal consistency and recorded paired differences; it cannot independently rederive the statistics without private records.
 
+## Research Technical Note
+
+[Read the three-page Technical Note](technical_note/Zhijing_Wu_Manling_Li_Research_Technical_Note.pdf) or [inspect its editable source and build instructions](technical_note/README.md).
+
 ## Contents
 
 - [Research overview](docs/research_overview.md)

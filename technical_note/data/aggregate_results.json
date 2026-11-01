@@ -1,0 +1,276 @@
+{
+  "scope": "Frozen experimental aggregates only; no episode-level data or new fits.",
+  "counts": {
+    "saved_episodes": 224,
+    "final_at_risk": 124,
+    "final_at_risk_successes": 4,
+    "final_at_risk_failures": 120,
+    "current_available": 61,
+    "forecast_available": 25,
+    "forecast_exact": 1,
+    "primary_calibration_n": 30,
+    "primary_calibration_failures": 30,
+    "split_counts": {
+      "development": 64,
+      "final": 128,
+      "calibration": 32
+    }
+  },
+  "split_families": {
+    "development": 50,
+    "calibration": 27,
+    "final": 106,
+    "final_at_risk": 102
+  },
+  "risk_set_counts": {
+    "development": {
+      "n": 63,
+      "failures": 61,
+      "successes": 2
+    },
+    "calibration": {
+      "n": 30,
+      "failures": 30,
+      "successes": 0
+    },
+    "final": {
+      "n": 124,
+      "failures": 120,
+      "successes": 4
+    }
+  },
+  "gain_points": [
+    {
+      "scope": "registered",
+      "baseline": "ordinary_replay_task_progress_deadlock",
+      "label": "Reg. | replay/task",
+      "mean": 6.908302103657969e-06,
+      "lo": -0.0002553161666484218,
+      "hi": 0.0003179035322317209
+    },
+    {
+      "scope": "registered",
+      "baseline": "generic_summary_matched_interactions",
+      "label": "Reg. | matched",
+      "mean": 0.0006531723854068677,
+      "lo": -0.002760148578008335,
+      "hi": 0.004466316017218905
+    },
+    {
+      "scope": "full_tail",
+      "baseline": "ordinary_replay_task_progress_deadlock",
+      "label": "Tail | replay/task",
+      "mean": 5.717011890776822e-05,
+      "lo": -0.0002974828098385209,
+      "hi": 0.0005250206363404931
+    },
+    {
+      "scope": "full_tail",
+      "baseline": "generic_summary_matched_interactions",
+      "label": "Tail | matched",
+      "mean": 0.0030500218517241604,
+      "lo": -0.0034005715055626206,
+      "hi": 0.011994444699334403
+    }
+  ],
+  "metrics": [
+    {
+      "view": "prior",
+      "name": "Development prior",
+      "columns": 0,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.1449471460239966,
+      "Brier": 0.03141057453712541
+    },
+    {
+      "view": "prior",
+      "name": "Development prior",
+      "columns": 0,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.1449471460239966,
+      "Brier": 0.03141057453712541
+    },
+    {
+      "view": "state_format",
+      "name": "State + format",
+      "columns": 11,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.1064039131531564,
+      "Brier": 0.028862232300055177
+    },
+    {
+      "view": "state_format",
+      "name": "State + format",
+      "columns": 11,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.1064039131531564,
+      "Brier": 0.028862232300055177
+    },
+    {
+      "view": "ordinary_replay",
+      "name": "Ordinary replay",
+      "columns": 12,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.09465778428281907,
+      "Brier": 0.02723340621064782
+    },
+    {
+      "view": "ordinary_replay",
+      "name": "Ordinary replay",
+      "columns": 12,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.09465778428281907,
+      "Brier": 0.02723340621064782
+    },
+    {
+      "view": "MI_self_likelihood",
+      "name": "Likelihood proxy",
+      "columns": 9,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.11515587987318847,
+      "Brier": 0.029624223743120945
+    },
+    {
+      "view": "MI_self_likelihood",
+      "name": "Likelihood proxy",
+      "columns": 9,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.10277774281969301,
+      "Brier": 0.028314247362106453
+    },
+    {
+      "view": "state_replay_MI",
+      "name": "State + replay + likelihood",
+      "columns": 18,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.10537893666684447,
+      "Brier": 0.02824117166564709
+    },
+    {
+      "view": "state_replay_MI",
+      "name": "State + replay + likelihood",
+      "columns": 18,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.09199422769542355,
+      "Brier": 0.02663157682249229
+    },
+    {
+      "view": "two_sample_disagreement",
+      "name": "Two-sample disagreement",
+      "columns": 23,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.10399460098083327,
+      "Brier": 0.02824930033343604
+    },
+    {
+      "view": "two_sample_disagreement",
+      "name": "Two-sample disagreement",
+      "columns": 23,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.09006848646230722,
+      "Brier": 0.026786836731329738
+    },
+    {
+      "view": "ordinary_replay_task_progress_deadlock",
+      "name": "Replay + task / deadlock",
+      "columns": 25,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.039513908197472865,
+      "Brier": 0.009676470709556151
+    },
+    {
+      "view": "ordinary_replay_task_progress_deadlock",
+      "name": "Replay + task / deadlock",
+      "columns": 25,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.04293590614148733,
+      "Brier": 0.011315169661673693
+    },
+    {
+      "view": "task_relevance_augmented",
+      "name": "Task-relevance candidate",
+      "columns": 34,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.0395069998953692,
+      "Brier": 0.009634180427644193
+    },
+    {
+      "view": "task_relevance_augmented",
+      "name": "Task-relevance candidate",
+      "columns": 34,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.04287873602257956,
+      "Brier": 0.011240979846888675
+    },
+    {
+      "view": "generic_summary_matched_interactions",
+      "name": "Matched generic interactions",
+      "columns": 34,
+      "scope": "registered",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.04016017228077607,
+      "Brier": 0.010256173688002874
+    },
+    {
+      "view": "generic_summary_matched_interactions",
+      "name": "Matched generic interactions",
+      "columns": 34,
+      "scope": "full_tail",
+      "n": 124,
+      "successes": 4,
+      "failures": 120,
+      "log_loss": 0.04592875787430371,
+      "Brier": 0.013079638874456432
+    }
+  ]
+}

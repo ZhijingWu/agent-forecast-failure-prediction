@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "pages": 3,
+  "page_format": "A4",
+  "pdf_sha256": "1b5873196c9cfbae117ee30a3dd9eae48a65791be26085c719f3cd927733419e",
+  "independent_fresh_copy_builds": 2,
+  "fresh_copy_pdf_hashes": [
+    "1b5873196c9cfbae117ee30a3dd9eae48a65791be26085c719f3cd927733419e",
+    "1b5873196c9cfbae117ee30a3dd9eae48a65791be26085c719f3cd927733419e"
+  ],
+  "byte_identical": true,
+  "environment": {
+    "python": "3.11.9",
+    "matplotlib": "3.10.1",
+    "tex": "pdfTeX 1.40.24 / TeX Live 2022/Debian"
+  },
+  "fonts": {
+    "entries": 20,
+    "all_embedded": true,
+    "unicode_maps": true
+  },
+  "searchable_text": true,
+  "working_pdf_repository_link": true,
+  "layout_warnings": [],
+  "new_scientific_execution": false,
+  "rendering": "All three pages rendered with Poppler at 160 dpi and visually opened individually."
+}

@@ -1,0 +1,24 @@
+\begingroup
+\hyphenpenalty=10000\exhyphenpenalty=10000
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,
+  font=\fontsize{9.5}{11.5}\selectfont,
+  panel/.style={draw=blue!45,fill=ice,rounded corners=3pt,line width=.7pt,
+    text width=7.35cm,minimum height=1.72cm,inner sep=9pt,align=left},
+  flow/.style={->,draw=slate,line width=1pt,rounded corners=3pt}]
+\node[panel] (a) at (0,0) {\textcolor{blue}{\textbf{A \quad Frozen policy + native execution}}\\[4pt]
+  \textbf{1} Fixed public SPA weights.\\
+  \textbf{2} Native grids; fixed action and turn horizon.};
+\node[panel] (b) at (8.75,0) {\textcolor{blue}{\textbf{B \quad First-turn evidence}}\\[4pt]
+  \textbf{3} Raw reply, token IDs and native observation.\\
+  Extra initial sample; four teacher-forced scores.};
+\node[panel] (c) at (0,-2.6) {\textcolor{blue}{\textbf{C \quad Replay diagnostics + nine views}}\\[4pt]
+  \textbf{4} Native replay; public task-distance queries.\\
+  \textbf{5} Fixed summaries of the same trace and budget.};
+\node[panel] (d) at (8.75,-2.6) {\textcolor{blue}{\textbf{D \quad Fit + held-out evaluation}}\\[4pt]
+  \textbf{6} Development-only scaling and L2 logistic fit.\\
+  \textbf{7} Family-held-out test; paired family bootstrap.};
+\draw[flow] (a.east)--(b.west);
+\draw[flow,-{Latex[length=2mm,width=1.6mm]}] (b.south)--(8.75,-1.3)--(0,-1.3)--(c.north);
+\draw[flow] (c.east)--(d.west);
+\end{tikzpicture}
+\endgroup

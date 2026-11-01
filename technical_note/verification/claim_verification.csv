@@ -1,0 +1,100 @@
+claim,exact_value,display_value,verification
+Development prior registered log_loss,0.1449471460239966,0.1449,matches frozen final statistics
+Development prior registered Brier,0.03141057453712541,0.0314,matches frozen final statistics
+Development prior full_tail log_loss,0.1449471460239966,0.1449,matches frozen final statistics
+Development prior full_tail Brier,0.03141057453712541,0.0314,matches frozen final statistics
+State + format registered log_loss,0.1064039131531564,0.1064,matches frozen final statistics
+State + format registered Brier,0.028862232300055177,0.0289,matches frozen final statistics
+State + format full_tail log_loss,0.1064039131531564,0.1064,matches frozen final statistics
+State + format full_tail Brier,0.028862232300055177,0.0289,matches frozen final statistics
+Ordinary replay registered log_loss,0.09465778428281907,0.0947,matches frozen final statistics
+Ordinary replay registered Brier,0.02723340621064782,0.0272,matches frozen final statistics
+Ordinary replay full_tail log_loss,0.09465778428281907,0.0947,matches frozen final statistics
+Ordinary replay full_tail Brier,0.02723340621064782,0.0272,matches frozen final statistics
+Likelihood proxy registered log_loss,0.11515587987318847,0.1152,matches frozen final statistics
+Likelihood proxy registered Brier,0.029624223743120945,0.0296,matches frozen final statistics
+Likelihood proxy full_tail log_loss,0.10277774281969301,0.1028,matches frozen final statistics
+Likelihood proxy full_tail Brier,0.028314247362106453,0.0283,matches frozen final statistics
+State + replay + likelihood registered log_loss,0.10537893666684447,0.1054,matches frozen final statistics
+State + replay + likelihood registered Brier,0.02824117166564709,0.0282,matches frozen final statistics
+State + replay + likelihood full_tail log_loss,0.09199422769542355,0.0920,matches frozen final statistics
+State + replay + likelihood full_tail Brier,0.02663157682249229,0.0266,matches frozen final statistics
+Two-sample disagreement registered log_loss,0.10399460098083327,0.1040,matches frozen final statistics
+Two-sample disagreement registered Brier,0.02824930033343604,0.0282,matches frozen final statistics
+Two-sample disagreement full_tail log_loss,0.09006848646230722,0.0901,matches frozen final statistics
+Two-sample disagreement full_tail Brier,0.026786836731329738,0.0268,matches frozen final statistics
+Replay + task / deadlock registered log_loss,0.039513908197472865,0.0395,matches frozen final statistics
+Replay + task / deadlock registered Brier,0.009676470709556151,0.0097,matches frozen final statistics
+Replay + task / deadlock full_tail log_loss,0.04293590614148733,0.0429,matches frozen final statistics
+Replay + task / deadlock full_tail Brier,0.011315169661673693,0.0113,matches frozen final statistics
+Task-relevance candidate registered log_loss,0.0395069998953692,0.0395,matches frozen final statistics
+Task-relevance candidate registered Brier,0.009634180427644193,0.0096,matches frozen final statistics
+Task-relevance candidate full_tail log_loss,0.04287873602257956,0.0429,matches frozen final statistics
+Task-relevance candidate full_tail Brier,0.011240979846888675,0.0112,matches frozen final statistics
+Matched generic interactions registered log_loss,0.04016017228077607,0.0402,matches frozen final statistics
+Matched generic interactions registered Brier,0.010256173688002874,0.0103,matches frozen final statistics
+Matched generic interactions full_tail log_loss,0.04592875787430371,0.0459,matches frozen final statistics
+Matched generic interactions full_tail Brier,0.013079638874456432,0.0131,matches frozen final statistics
+saved_episodes,224,224,recounted from224frozenrows
+final_at_risk,124,124,recounted from224frozenrows
+final_at_risk_successes,4,4,recounted from224frozenrows
+final_at_risk_failures,120,120,recounted from224frozenrows
+current_available,61,61,recounted from224frozenrows
+forecast_available,25,25,recounted from224frozenrows
+forecast_exact,1,1,recounted from224frozenrows
+primary_calibration_n,30,30,recounted from224frozenrows
+primary_calibration_failures,30,30,recounted from224frozenrows
+registered vs ordinary_replay_task_progress_deadlock gain,6.908302103657969e-06,0.00001,exact crosscheck against original figure data
+registered vs ordinary_replay_task_progress_deadlock CI95 lower,-0.0002553161666484218,-0.00026,exact crosscheck against original figure data
+registered vs ordinary_replay_task_progress_deadlock CI95 upper,0.0003179035322317209,0.00032,exact crosscheck against original figure data
+registered vs generic_summary_matched_interactions gain,0.0006531723854068677,0.00065,exact crosscheck against original figure data
+registered vs generic_summary_matched_interactions CI95 lower,-0.002760148578008335,-0.00276,exact crosscheck against original figure data
+registered vs generic_summary_matched_interactions CI95 upper,0.004466316017218905,0.00447,exact crosscheck against original figure data
+full_tail vs ordinary_replay_task_progress_deadlock gain,5.717011890776822e-05,0.00006,exact crosscheck against original figure data
+full_tail vs ordinary_replay_task_progress_deadlock CI95 lower,-0.0002974828098385209,-0.00030,exact crosscheck against original figure data
+full_tail vs ordinary_replay_task_progress_deadlock CI95 upper,0.0005250206363404931,0.00053,exact crosscheck against original figure data
+full_tail vs generic_summary_matched_interactions gain,0.0030500218517241604,0.00305,exact crosscheck against original figure data
+full_tail vs generic_summary_matched_interactions CI95 lower,-0.0034005715055626206,-0.00340,exact crosscheck against original figure data
+full_tail vs generic_summary_matched_interactions CI95 upper,0.011994444699334403,0.01199,exact crosscheck against original figure data
+prior nominal columns,0,0,counted original frozen feature list
+state_format nominal columns,11,11,counted original frozen feature list
+ordinary_replay nominal columns,12,12,counted original frozen feature list
+MI_self_likelihood nominal columns,9,9,counted original frozen feature list
+state_replay_MI nominal columns,18,18,counted original frozen feature list
+two_sample_disagreement nominal columns,23,23,counted original frozen feature list
+ordinary_replay_task_progress_deadlock nominal columns,25,25,counted original frozen feature list
+task_relevance_augmented nominal columns,34,34,counted original frozen feature list
+generic_summary_matched_interactions nominal columns,34,34,counted original frozen feature list
+grid size,6x6,6x6,verified original protocol/receipt
+action-attempt limit,10,10,verified original protocol/receipt
+model-turn limit,5,5,verified original protocol/receipt
+model parameters,1543301120,1543301120,verified original protocol/receipt
+bootstrap draws,2000,2000,verified original protocol/receipt
+final at-risk layout families,102,102,verified original protocol/receipt
+full-tail teacher-forcing passes,896,896,verified original protocol/receipt
+full-tail additional sampling,0,0,verified original protocol/receipt
+development/calibration/final families,50/27/106,50/27/106,verified original protocol/receipt
+development fixed episodes,64,64,verified original frozen values; no new fit
+development at-risk n,63,63,verified original frozen values; no new fit
+development at-risk failures,61,61,verified original frozen values; no new fit
+development at-risk successes,2,2,verified original frozen values; no new fit
+development D4 families,50,50,verified original frozen values; no new fit
+calibration fixed episodes,32,32,verified original frozen values; no new fit
+calibration at-risk n,30,30,verified original frozen values; no new fit
+calibration at-risk failures,30,30,verified original frozen values; no new fit
+calibration at-risk successes,0,0,verified original frozen values; no new fit
+calibration D4 families,27,27,verified original frozen values; no new fit
+final fixed episodes,128,128,verified original frozen values; no new fit
+final at-risk n,124,124,verified original frozen values; no new fit
+final at-risk failures,120,120,verified original frozen values; no new fit
+final at-risk successes,4,4,verified original frozen values; no new fit
+final D4 families,106,106,verified original frozen values; no new fit
+temperature,0.7,0.7,verified original frozen values; no new fit
+top_p,0.8,0.8,verified original frozen values; no new fit
+top_k,20,20,verified original frozen values; no new fit
+max_new_tokens,400,400,verified original frozen values; no new fit
+logistic regularization C,1,1,verified original frozen values; no new fit
+number of feature views,9,9,verified original frozen values; no new fit
+own plus cross score count,4,4,verified original frozen values; no new fit
+extra initial samples,1,1,verified original frozen values; no new fit
+cross-reference scores per target,3,3,verified original frozen values; no new fit
